@@ -25,6 +25,8 @@ function CreateMeeting(props) {
             return alert('Preencha todos os campos obrigatórios!')
         }
 
+        if (horario.length < 5 && horario.length > 6) return alert('Horário incorreto!')
+
         //dados para mandar na requisicao
         const data = {nome, desc, sala: {idSala: props.match.params.id, horario}}
 

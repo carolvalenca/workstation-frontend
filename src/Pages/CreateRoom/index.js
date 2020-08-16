@@ -54,7 +54,7 @@ function CreateRoom() {
 
                         <div className="input">
                             <label htmlFor="">Descrição</label>
-                            <textarea name="" id="" cols="30" rows="5" maxlength="200" placeholder="Máximo de 200 caracteres..." value={desc} onChange={(e) => setDesc(e.target.value)}></textarea>
+                            <textarea name="" id="" cols="30" rows="5" maxLength="200" placeholder="Máximo de 200 caracteres..." value={desc} onChange={(e) => setDesc(e.target.value)}></textarea>
                         </div> 
 
                         <button type="submit">Criar sala</button> 

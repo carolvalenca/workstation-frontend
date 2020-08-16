@@ -1,0 +1,81 @@
+#cadastro-container form {
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #051441;
+}
+
+#cadastro-container form h1 {
+    margin: 40px 0 30px 0;
+    text-align: center;
+}
+
+#cadastro-container form .input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#cadastro-container form .input label {
+    margin-bottom: 5px;
+}
+
+#cadastro-container form .input input, textarea {
+    border: solid 1px #051441;
+    border-radius: 3px;
+    font-size: 1.6rem;
+}
+
+#cadastro-container form .input input {
+    height: 35px;
+    padding: 0 10px;
+}
+
+#cadastro-container form .input textarea {
+    padding: 10px;
+    resize: none;
+    width: 100%;
+}
+
+#cadastro-container form .input-group {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#cadastro-container form .input-group .input {
+    width: 48%;
+}
+
+#cadastro-container form button {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    background: #f4780e;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+#cadastro-container form button:hover {
+    background: #DC6F10;
+}
+
+#cadastro-container form .funcao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: 10px 0 20px 0;
+}
+
+#cadastro-container form .funcao input {
+    margin-right: 10px;
+    cursor: pointer;
+}

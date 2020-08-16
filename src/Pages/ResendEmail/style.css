@@ -1,0 +1,51 @@
+#resend-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#resend-container h1 {
+    font-size: 4rem;
+}
+
+#resend-container h3 {
+    font-size: 2rem;
+}
+
+#resend-container form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#resend-container form p {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#resend-container form input {
+    width: 80%;
+    padding: 10px;
+    font-size: 1.6rem;
+    border-radius: 3px;
+    border: 1px solid #051441;
+}
+
+#resend-container form button {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    background: #f4780e;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+#resend-container form button:hover {
+    background: #DC6F10;
+}

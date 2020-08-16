@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+:root {
+    /* 10 px */
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f8f9fa;
+}
+
+input, button, textarea {
+    font-family: 'Roboto', sans-serif;
+}

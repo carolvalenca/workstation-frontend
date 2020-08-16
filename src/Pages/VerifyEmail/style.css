@@ -1,0 +1,39 @@
+#verify-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#verify-container h1 {
+    font-size: 4rem;
+}
+
+#verify-container h3 {
+    font-size: 2rem;
+}
+
+#verify-container input {
+    width: 40%;
+    padding: 10px;
+    font-size: 1.6rem;
+    border-radius: 3px;
+    border: 1px solid #051441;
+    margin-top: 40px;
+}
+
+#verify-container .verificar {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    background: #f4780e;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+#verify-container .verificar:hover {
+    background: #DC6F10;
+}

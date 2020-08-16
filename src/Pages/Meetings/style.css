@@ -1,0 +1,73 @@
+#m-container {
+    width: 100%;
+    height: auto;
+}
+
+#m-container h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+#m-container .content {
+    display: flex;
+}
+
+#m-container .content .meetings {
+    flex-grow: 1;
+}
+
+#m-container .meetings {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+#m-container .meeting {
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 1.6rem;
+    min-height: 250px;
+    max-height: 450px;
+    height: auto;
+    max-width: 300px;
+    word-wrap: break-word;
+    background: white;
+    box-shadow: 20px 30px 36px -13px rgba(136,136,136,0.54);
+}
+
+#m-container .meeting p {
+    margin: 5px 0;
+}
+
+#m-container .meeting button {
+    color: white;
+    border-radius: 3px;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color .2s;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+#m-container .meeting .p-button {
+    background: #17a2b8;;
+}
+
+#m-container .meeting .p-button:hover {
+    background: #13889B;
+}
+
+#m-container .meeting .np-button {
+    background: #DE0700;
+}
+
+#m-container .meeting .np-button:hover {
+    background: #B90600;
+}
+
+

@@ -1,0 +1,68 @@
+#users-container {
+    height: 100vh;
+}
+
+#users-container h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+#users-container .content {
+    display: flex;
+}
+
+#users-container .usuarios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    /* background: yellow; */
+    flex-grow: 1;
+}
+
+#users-container .card-usuario {
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 1.6rem;
+    min-height: 250px;
+    max-height: 500px;
+    height: auto;
+    max-width: 300px;
+    /* overflow-x: auto; */
+    word-wrap: break-word;
+    background: white;
+    box-shadow: 20px 30px 36px -13px rgba(136,136,136,0.54);
+}
+
+#users-container .card-usuario button {
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+#users-container .card-usuario .promote {
+    background: #27A901;
+}
+
+#users-container .card-usuario .promote:hover {
+    background: #208F00;
+}
+
+#users-container .card-usuario .remove {
+    background: #DE0700;
+}
+
+#users-container .card-usuario .remove:hover {
+    background: #B90600;
+}
+
+#users-container .content .card-usuario p {
+    margin: 10px 0;
+    /* text-overflow: clip; */
+    /* white-space: wrap; */
+}

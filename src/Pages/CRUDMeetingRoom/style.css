@@ -1,0 +1,83 @@
+#crudmr-container {
+    height: 100vh;
+}
+
+#crudmr-container .content button,
+#crudmr-container .new-room 
+{
+    color: white;
+    border-radius: 3px;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+#crudmr-container h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+#crudmr-container .new-room {
+    position: relative;
+    left: 80%;
+    margin-bottom: 30px;
+    background: #17a2b8;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+#crudmr-container .new-room:hover {
+    background: #13889B;
+}
+
+#crudmr-container .content {
+    display: flex;
+}
+
+#crudmr-container .rooms {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+#crudmr-container .room {
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 1.6rem;
+    min-height: 250px;
+    max-height: 450px;
+    height: auto;
+    max-width: 300px;
+    word-wrap: break-word;
+    background: white;
+    box-shadow: 20px 30px 36px -13px rgba(136,136,136,0.54);
+}
+
+#crudmr-container .room button {
+    margin-right: 10px;
+}
+
+#crudmr-container .room .button-e {
+    background: #27A901;
+}
+
+#crudmr-container .room .button-e:hover {
+    background: #208F00;
+}
+
+#crudmr-container .room .button-d {
+    background: #DE0700;
+}
+
+#crudmr-container .room .button-d:hover {
+    background: #B90600;
+}
+
+#crudmr-container #users-container .content .room p {
+    margin: 10px 0;
+}

@@ -1,0 +1,26 @@
+#menu-container {
+    border-right: solid 1px #051441;
+    padding: 30px 20px;
+    height: 80vh;
+}
+
+#menu-container .links {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    margin: auto 0;
+    /* background: yellow; */
+}
+
+#menu-container .links a {
+    color: #051441;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+    transition: color .2s;
+}
+
+#menu-container .links a:hover {
+    color: #17a2b8;
+}

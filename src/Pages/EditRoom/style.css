@@ -1,0 +1,73 @@
+#er-container {
+    width: 100vw;
+}
+
+#er-container .content {
+    display: flex;
+    align-items: center;
+}
+
+
+#er-container .form-container {
+    height: auto;
+    flex-grow: 1;
+}
+
+#er-container .form-container form {
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #051441;
+}
+
+#er-container .form-container form h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#er-container .form-container form .input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#er-container .form-container form .input label {
+    margin-bottom: 5px;
+}
+
+#er-container .form-container form .input input, textarea {
+    border: solid 1px #051441;
+    border-radius: 3px;
+    font-size: 1.6rem;
+}
+
+#er-container .form-container form .input input {
+    height: 35px;
+    padding: 0 10px;
+}
+
+#er-container .form-container form .input textarea {
+    padding: 10px;
+    resize: none;
+    width: 100%;
+    /* width: 100ch; */
+}
+
+#er-container .form-container form button {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    background: #f4780e;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+#er-container .form-container form button:hover {
+    background: #DC6F10;
+}
